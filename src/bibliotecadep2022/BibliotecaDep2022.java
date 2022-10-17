@@ -16,20 +16,24 @@ public class BibliotecaDep2022 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        LivroAcervo la = new LivroAcervo();
-        la.local = "71E";
-        la.qtdAcervo = 3;
-        la.qtdDisponivel = 2;
-        la.livro = new Livro();
+//        LivroAcervo la = new LivroAcervo();
+//        la.local = "71E";
+//        la.qtdAcervo = 3;
+//        la.qtdDisponivel = 2;
+//        la.livro = new Livro();
+//        
+//        la.livro.titulo = "Trono de Vidro";
+//        la.livro.autor = "Sarah J. Mass";
+//        la.livro.anoPublicacao = 2019;
+//        la.livro.editora = "Galera";
+//        la.livro.isbn = "XXX-2019-4575373";
+//        la.livro.numPaginas = 400;
         
-        la.livro.titulo = "Trono de Vidro";
-        la.livro.autor = "Sarah J. Mass";
-        la.livro.anoPublicacao = 2019;
-        la.livro.editora = "Galera";
-        la.livro.isbn = "XXX-2019-4575373";
-        la.livro.numPaginas = 400;
         
-        
+        Livro abc = new Livro();
+        System.out.println(abc.titulo);
+        System.out.println(abc.autor);
+        System.out.println(abc.anoPublicacao);
         
     }
     

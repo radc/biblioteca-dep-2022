@@ -15,4 +15,11 @@ public class LivroAcervo {
     String local;
     Livro livro;
     
+    public LivroAcervo(String titulo, String autor, String isbn, int numPaginas, String editora, int anoPublicacao){
+        this.livro = new Livro(titulo,autor,isbn,numPaginas,editora,anoPublicacao);
+        this.qtdAcervo = -1;
+        this.qtdDisponivel = -1;
+        this.local = "Não definido";
+    }
+    
 }

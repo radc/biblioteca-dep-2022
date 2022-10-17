@@ -19,7 +19,24 @@ public class Livro {
     int numPaginas;
     String editora;
     int anoPublicacao;
-           
+    
+    public Livro(){
+        titulo = "Não definido";
+        autor = "Não definido";
+        isbn = "Não definido";
+        editora = "Não definido";
+        numPaginas = -1;
+        anoPublicacao = -1;
+    }
+
+    public Livro(String titulo, String autor, String isbn, int numPaginas, String editora, int anoPublicacao) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.isbn = isbn;
+        this.numPaginas = numPaginas;
+        this.editora = editora;
+        this.anoPublicacao = anoPublicacao;
+    }
     
 }
 
