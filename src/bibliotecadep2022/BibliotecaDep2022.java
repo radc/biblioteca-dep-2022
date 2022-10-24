@@ -29,11 +29,15 @@ public class BibliotecaDep2022 {
 //        la.livro.isbn = "XXX-2019-4575373";
 //        la.livro.numPaginas = 400;
         
+        Livro l = new Livro("Trono de Vidro", "Sarah J. Mass", 
+                "XXX-2019-4567876", 400, "Galera", 2019);
         
-        Livro abc = new Livro();
-        System.out.println(abc.titulo);
-        System.out.println(abc.autor);
-        System.out.println(abc.anoPublicacao);
+        //
+        System.out.println(l.getNumPaginas());
+        l.setNumPaginas(2);
+        System.out.println(l.getNumPaginas());
+        System.out.println(l.getAutor());
+  
         
     }
     

@@ -12,13 +12,13 @@ package bibliotecadep2022;
 
 
 public class Livro {
-    String titulo;
-    String autor;
+    private String titulo;
+    private String autor;
     //genero
-    String isbn;
-    int numPaginas;
-    String editora;
-    int anoPublicacao;
+    private String isbn;
+    private int numPaginas;
+    private String editora;
+    private int anoPublicacao;
     
     public Livro(){
         titulo = "Não definido";
@@ -38,6 +38,55 @@ public class Livro {
         this.anoPublicacao = anoPublicacao;
     }
     
+    public String getAutor(){
+        return this.autor;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getNumPaginas() {
+        return numPaginas;
+    }
+
+    public void setNumPaginas(int numPaginas) {
+        if(numPaginas >= 1){
+            this.numPaginas = numPaginas;
+        }
+        
+    }
+
+    public String getEditora() {
+        return editora;
+    }
+
+    public void setEditora(String editora) {
+        this.editora = editora;
+    }
+
+    public int getAnoPublicacao() {
+        return anoPublicacao;
+    }
+
+    public void setAnoPublicacao(int anoPublicacao) {
+        this.anoPublicacao = anoPublicacao;
+    }
+    
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+    
 }
-
-
